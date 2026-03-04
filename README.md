@@ -20,7 +20,7 @@ La Respuesta Galvánica Cutánea (GSR) se define como el cambio en las propiedad
 Dicho esto, la GSR mide las variaciones en la conductividad eléctrica de la piel en respuesta a ciertos estímulos. Por eso, este tipo de técnicas se usan comúnmente en polígrafos o sistemas de detección de mentiras, pues, si bien se pueden controlar las expresiones faciales, no se puede controlar las glándulas sudoríparas.
 
 <div align="center">
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/780d36cf-130a-44ca-a410-28d564cba660" />
+<img width="412" height="412" alt="image" src="https://github.com/user-attachments/assets/780d36cf-130a-44ca-a410-28d564cba660" />
 </div>
 
 # REFERENCIAS 
