@@ -405,5 +405,11 @@ Esto indica que, a pesar de ser un método relativamente simple y útil, para lo
 
 # Conclusiones
 
+
 # REFERENCIAS 
 - O. N. Rahma, A. P. Putra, A. Rahmatillah, Y. S. K. A. Putri, N. D. Fajriaty, K. Ain y R. Chai, “Electrodermal Activity for Measuring Cognitive and Emotional Stress Level,” Journal of Medical Signals and Sensors, vol. 12, no. 2, pp. 155–162, 2022. [En línea]. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
+- ScienceDirect, “Electrodermal Activity.” [En línea]. Disponible en: https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity
+- ScienceDirect, “Galvanic Skin Response.” [En línea]. Disponible en: https://www.sciencedirect.com/topics/computer-science/galvanic-skin-response
+- Área Tecnología, “Daños de la corriente eléctrica sobre el cuerpo humano.” [En línea]. Disponible en: https://areatecnologia.com/electricidad/danos-corriente.html
+- P. Zimmerman, “Galvanic Skin Response, Heart Rate Variability and More Behavior on the Inside,” Noldus Information Technology Blog, May 2012. [En línea]. Disponible en: https://noldus.com/blog/what-is-galvanic-skin-response
+- M. Pedersen, “Galvanic Skin Response (GSR): The Complete Pocket Guide,” iMotions Blog, 2020. [En línea]. Disponible en: https://imotions.com/blog/learning/research-fundamentals/galvanic-skin-response/
