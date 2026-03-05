@@ -214,7 +214,7 @@ fprintf("Estres > %.3f V\n",media_est)
 Al finalizar el programa muestra en la consola los valores promedio de voltaje asociados a cada estado fisiológico.
 Estos valores sirven como umbrales de referencia para el algoritmo de clasificación implementado posteriormente en el sistema de detección de estrés.
 
-<img width="1419" height="969" alt="image" src="https://github.com/user-attachments/assets/42f75e7d-db53-41af-a64d-a708ada16102" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/42f75e7d-db53-41af-a64d-a708ada16102" />
 
 <img width="296" height="248" alt="image" src="https://github.com/user-attachments/assets/177e2390-9a0c-46f3-a8e6-dba05ca8f33e" />
 
@@ -368,7 +368,22 @@ Para que al terminar el tiempo de medición, se generé una gráfica completa de
 <img width="269" height="33" alt="image" src="https://github.com/user-attachments/assets/a8ae1267-7b15-4a27-b5d1-7c80a221f41e" />
 <img width="678" height="432" alt="image" src="https://github.com/user-attachments/assets/b5a07f16-ce6c-45fc-a10a-2d0542aaf599" />
 
+Durante todo el intervalo de medición el voltaje se mantiene aproximadamente entre 0.60 V y 0.95 V, lo que nos dice que la señal es estable pero, presenta variaciones asociadas a cambios fisiológicos.
 
+El primer intervalo (0 – 10 s)
+En los primeros segundos la señal muestra pequeñas fluctuaciones y corresponde a un estado basal o de reposo, donde la actividad del sistema nervioso simpático es baja y la conductancia de la piel se mantiene relativamente constante.
+
+El Segundo intervalo (10 – 17 s)
+En este tramo se observa un incremento progresivo del voltaje, alcanzando valores cercanos a 0.85 V – 0.90 V. Este aumento puede verse como una activación fisiológica, posiblemente causada por una respuesta fisiológica del organismo.
+
+El tercer intervalo (17 – 21 s)
+Posteriormente se presenta una disminución leve de la señal, descendiendo nuevamente hacia valores cercanos a 0.75 V – 0.80 V. Esto indica una recuperación parcial del estado basal, donde la actividad simpática disminuye ligeramente.
+
+El cuarto intervalo (21 – 25 s)
+En este periodo se observa de nuevo un aumento del voltaje, alcanzando el punto más alto de la gráfica cercano a 0.95 V. Este comportamiento puede interpretarse como una respuesta fisiológica a un nivel de activación o estrés momentáneo.
+
+El Último intervalo (25 – 30 s)
+La señal presenta una ligera reducción y estabilización, manteniéndose alrededor de 0.80 V – 0.90 V, lo que indica que el sistema fisiológico comienza a estabilizarse después del pico observado anteriormente.
 
 
 # REFERENCIAS 
