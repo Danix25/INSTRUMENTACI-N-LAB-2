@@ -386,7 +386,18 @@ El Último intervalo (25 – 30 s)
 La señal presenta una ligera reducción y estabilización, manteniéndose alrededor de 0.80 V – 0.90 V, lo que indica que el sistema fisiológico comienza a estabilizarse después del pico observado anteriormente.
 
 - **¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?**
+
+Una inspiración profunda incrementa la GSR debido a la activación transitoria del sistema nervioso simpático (SNS), lo que provoca un aumento inmediato en la actividad de las glándulas sudoríparas, incluso cuando la persona no presenta estrés emocional. Este fenómeno puede explicarse mediante cuatro factores: primero, la activación simpática, que corresponde al estímulo fisiológico que activa el SNS; segundo, el aumento de la sudoración, ya que el SNS estimula las glándulas sudoríparas; tercero, el incremento de la conductancia, debido al aumento de la humedad en la piel; y cuarto, el reflejo fisiológico, que actúa como un marcador de la activación del sistema nervioso.
+
 - **¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?**
+
+La respuesta galvánica cutánea se utiliza comúnmente como un indicador fisiológico de estrés. Sin embargo, a pesar de las ventajas que ofrece esta técnica, también presenta ciertas limitaciones. En cuanto a sus ventajas, se destaca la medición objetiva, ya que, a partir de una señal fisiológica, es posible evaluar el estrés sin depender de percepciones subjetivas del individuo. Asimismo, se resalta su implementación simple y su carácter no invasivo, debido a que la medición se realiza únicamente mediante la colocación de electrodos sobre la piel, y los sensores utilizados son económicos y fáciles de emplear en este tipo de sistemas de monitoreo.
+
+
+En cuanto a las desventajas, se menciona la influencia de factores externos, como la temperatura, la humedad o el movimiento del sujeto, los cuales pueden afectar la correcta captura de la señal GSR. Además, existe una dependencia de la ubicación de los electrodos, ya que, según la región anatómica, la señal puede resultar más compleja de registrar. De igual manera, una presión irregular sobre los electrodos puede introducir ruido o artefactos en la señal.
+
+
+Esto indica que, a pesar de ser un método relativamente simple y útil, para lograr una interpretación más precisa es necesario combinarlo con otras medidas fisiológicas, como la respiración o la frecuencia cardiaca, o con pruebas psicológicas, si se desea detectar diferentes niveles de estrés.
 
 # Conclusiones
 
