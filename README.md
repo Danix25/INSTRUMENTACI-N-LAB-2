@@ -48,3 +48,4 @@ Del mismo modo, es importante mencionar el papel que juega el tiempo de exposici
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
 - https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity
 - https://www.sciencedirect.com/topics/computer-science/galvanic-skin-response
+- https://areatecnologia.com/electricidad/danos-corriente.html
