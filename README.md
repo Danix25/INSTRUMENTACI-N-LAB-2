@@ -385,6 +385,10 @@ En este periodo se observa de nuevo un aumento del voltaje, alcanzando el punto 
 El Último intervalo (25 – 30 s)
 La señal presenta una ligera reducción y estabilización, manteniéndose alrededor de 0.80 V – 0.90 V, lo que indica que el sistema fisiológico comienza a estabilizarse después del pico observado anteriormente.
 
+- **¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?**
+- **¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?**
+
+# Conclusiones
 
 # REFERENCIAS 
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
