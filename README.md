@@ -76,7 +76,9 @@ Para la realización de la práctica y la adquisición de la señal de respuesta
 
 En primer lugar, se escogió la región anatómica donde se sujetarán los electrodos para capturar la señal con un mínimo de interferencia. La región seleccionada fue la mano, ubicando los electrodos en la yema de los dedos. Estos electrodos serán ajustados con una cinta tipo velcro, para que estos tengan un minimo movimiento. Además, el dispositivo estará sujeto al brazo del paciente, por lo que los datos y variaciones de la GSR serán transmitidas de forma inalámbrica a un computador portatil.
 
-(Aquí se adjunta imágen)
+<div align="center">
+<img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/1ec00adc-0181-46b6-8d84-841392705914" />
+</div>
 
 ## Parte B
 
