@@ -90,6 +90,283 @@ Para presentar el dispositivo de captura, se empleó el siguiente procedimiento:
 
 Dicha información será transmitida inalámbricamente a un computador portatil, en el que se verá la gráfica correspondiente a las variaciones de la GSR.
 
+## Parte C
+
+
+<img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/9aef9eb1-c201-4eae-aa15-087cb96c881b" />
+
+
+**Calibración de Umbrales de Conductancia Cutánea**
+
+Su objetivo es determinar los valores de los umbrales, que posteriormente se utilizarán para clasificar los estados fisiológicos de la persona en el sistema de detección de estrés.
+
+El sistema realiza mediciones en cuatro condiciones fisiológicas diferentes:
+
+- Movimiento
+
+- Respiración
+
+- Habla
+
+- Estrés
+
+Para cada condición, el programa solicita al usuario ingresar el tiempo de medición, durante el cual se registran los valores enviados por el ADC del microcontrolador.
+
+```matlab
+clc; clear; close all
+
+s = serialport("COM3",115200);
+configureTerminator(s,"LF");
+flush(s);
+
+Vref = 3.3;
+ADC  = 4095;
+
+estados = ["movimiento","respiracion","habla","estres"];
+
+datos = struct;
+
+for k = 1:length(estados)
+
+    disp("Realizando medicion para: " + estados(k))
+    x = input("Tiempo de lectura (s): ");
+
+    tiempo = [];
+    voltaje = [];
+
+    tic
+    while toc < x
+        if s.NumBytesAvailable > 0
+
+            bits = str2double(readline(s));
+
+            if ~isnan(bits)
+
+                V = bits * Vref / ADC;
+                t = toc;
+
+                tiempo(end+1) = t;
+                voltaje(end+1) = V;
+
+            end
+        end
+    end
+
+    datos.(estados(k)).t = tiempo;
+    datos.(estados(k)).v = voltaje;
+
+end
+```
+Una vez adquiridos los datos de las cuatro condiciones fisiológicas, el programa genera gráficas independientes para cada estado y esto permite observar cómo cambia la señal de conductancia cutánea dependiendo de la actividad que esté realizando la persona.
+Esto facilita la identificación visual de diferencias entre los estados fisiológicos, lo cual es fundamental para definir correctamente los umbrales de clasificación.
+
+```matlab
+figure
+
+subplot(2,2,1)
+plot(datos.movimiento.t, datos.movimiento.v)
+title("Movimiento")
+xlabel("Tiempo")
+ylabel("Voltaje")
+ylim([0 3.3])
+grid on
+
+subplot(2,2,2)
+plot(datos.respiracion.t, datos.respiracion.v)
+title("Respiracion")
+xlabel("Tiempo")
+ylabel("Voltaje")
+ylim([0 3.3])
+grid on
+
+subplot(2,2,3)
+plot(datos.habla.t, datos.habla.v)
+title("Habla")
+xlabel("Tiempo")
+ylabel("Voltaje")
+ylim([0 3.3])
+grid on
+
+subplot(2,2,4)
+plot(datos.estres.t, datos.estres.v)
+title("Estres")
+xlabel("Tiempo")
+ylabel("Voltaje")
+ylim([0 3.3])
+grid on
+```
+Después de visualizar las señales, el programa calcula el valor promedio de voltaje para cada estado fisiológico.
+Estos valores promedio se utilizan como referencias para establecer los umbrales de clasificación que posteriormente se emplearán en el algoritmo de detección de estados.
+
+```matlab
+media_mov = mean(datos.movimiento.v);
+media_res = mean(datos.respiracion.v);
+media_hab = mean(datos.habla.v);
+media_est = mean(datos.estres.v);
+
+disp("----- UMBRALES -----")
+
+fprintf("Movimiento > %.3f V\n",media_mov)
+fprintf("Respiracion ≈ %.3f V\n",media_res)
+fprintf("Habla ≈ %.3f V\n",media_hab)
+fprintf("Estres > %.3f V\n",media_est)
+```
+Al finalizar el programa muestra en la consola los valores promedio de voltaje asociados a cada estado fisiológico.
+Estos valores sirven como umbrales de referencia para el algoritmo de clasificación implementado posteriormente en el sistema de detección de estrés.
+
+<img width="1419" height="969" alt="image" src="https://github.com/user-attachments/assets/42f75e7d-db53-41af-a64d-a708ada16102" />
+
+<img width="296" height="248" alt="image" src="https://github.com/user-attachments/assets/177e2390-9a0c-46f3-a8e6-dba05ca8f33e" />
+
+
+En las gráficas se presentan las señales de conductancia cutánea en función del tiempo para cuatro condiciones fisiológicas diferentes: movimiento, respiración, habla y estrés. Cada gráfica muestra cómo varía el voltaje medido por los electrodos durante aproximadamente 20 segundos.
+En movimiento, la señal presenta variaciones bruscas y picos frecuentes. Esto ocurre porque el movimiento corporal produce cambios en el contacto de los electrodos con la piel y pequeñas perturbaciones eléctricas, lo que genera una señal más inestable.
+En la señal de respiración, el voltaje se mantiene casi estable alrededor de un valor medio cercano a 1.2 V, con pequeñas variaciones.
+Para la condición de habla, la señal presenta ligeras oscilaciones adicionales en comparación con la respiración. Esto se debe a la activación de músculos faciales y torácicos durante el habla, lo cual introduce pequeñas perturbaciones en la señal de conductancia.
+En la condición de estrés, se observa un aumento progresivo del voltaje hasta valores cercanos a 1.6 V. Este incremento está relacionado con la activación del sistema nervioso simpático, que aumenta la actividad de las glándulas sudoríparas y, por lo tanto, incrementa la conductancia eléctrica de la piel.
+
+**Adquisición y Clasificación de Conductancia Cutánea**
+
+
+El sistema está diseñado para adquirir señales de conductancia cutánea, las cuales se relacionan con la actividad del sistema nervioso autónomo y pueden reflejar estados fisiológicos como movimiento, respiración, habla o estrés.
+
+Primero, el programa establece la conexión serial con el microcontrolador y define los parámetros del ADC (convertidor analógico–digital). Posteriormente, solicita al usuario ingresar el tiempo de medición, durante el cual se adquirirán los datos enviados por el sensor.
+Los valores enviados por el microcontrolador corresponden a bits del ADC, por lo que es necesario convertirlos a voltaje para obtener el valor real de la señal eléctrica medida por los electrodos.
+La conversión se realiza mediante la relación:
+
+$$
+V = \frac{\text{bits} \cdot V_{ref}}{ADC}
+$$
+
+$$
+V = \frac{\text{bits} \cdot 3.3}{4095}
+$$
+
+```matlab
+clc; clear; close all
+s = serialport("COM5",115200);
+configureTerminator(s,"LF");
+flush(s);
+
+Vref = 3.3;
+ADC  = 4095;
+
+% Umbrales fisiológicos
+movimiento  = 1.27;
+respiracion = 1.30;
+habla       = 1.15;
+estres_base = 1.31;
+
+% Niveles de estrés
+nivel1 = estres_base;
+nivel2 = estres_base + 0.2;
+nivel3 = estres_base + 0.4;
+nivel4 = estres_base + 0.6;
+nivel5 = estres_base + 0.8;
+
+N = 300;
+bufferV = nan(1,N);
+bufferT = nan(1,N);
+
+x = input("Ingrese el tiempo deseado de lectura: ");
+
+tiempo = [];
+voltaje = [];
+
+figure(1)
+h = plot(bufferT, bufferV,'b','LineWidth',2);
+grid on
+xlabel("Tiempo (s)")
+ylabel("Voltaje (V)")
+title("Conductancia Cutanea")
+ylim([0 3.3])
+
+tic
+while toc < x
+
+    if s.NumBytesAvailable > 0
+
+        bits = str2double(readline(s));
+
+        if ~isnan(bits)
+
+            V = bits * Vref / ADC;
+            t = toc;
+
+            tiempo(end+1) = t;
+            voltaje(end+1) = V;
+
+            bufferV = [bufferV(2:end) V];
+            bufferT = [bufferT(2:end) t];
+
+            set(h,'XData',bufferT,'YData',bufferV)
+            drawnow limitrate
+
+            % Clasificación del estado
+            estado = "Normal";
+
+            if V > movimiento
+                estado = "Movimiento";
+            end
+
+            if abs(V - respiracion) < 0.02
+                estado = "Respiracion";
+            end
+
+            if abs(V - habla) < 0.02
+                estado = "Habla";
+            end
+
+            if V > estres_base
+                estado = "ESTRES";
+            end
+
+            % Nivel de estrés
+            nivel_estres = 0;
+
+            if V > nivel1
+                nivel_estres = 1;
+            end
+            if V > nivel2
+                nivel_estres = 2;
+            end
+            if V > nivel3
+                nivel_estres = 3;
+            end
+            if V > nivel4
+                nivel_estres = 4;
+            end
+            if V > nivel5
+                nivel_estres = 5;
+            end
+
+            fprintf("Voltaje: %.3f V | Estado: %s",V,estado)
+
+            if nivel_estres > 0
+                fprintf(" | ALERTA: Estres Nivel %d\n",nivel_estres)
+            else
+                fprintf("\n")
+            end
+
+        end
+    end
+end
+
+figure(2)
+plot(tiempo,voltaje,'r','LineWidth',1.5)
+xlabel('Tiempo (s)')
+ylabel('Voltaje (V)')
+title('Conductancia Cutanea')
+ylim([0 3.3])
+grid on
+```
+El microcontrolador envía continuamente los datos del sensor en forma de bits del ADC. MATLAB recibe estos datos a través del puerto serial, los convierte a voltaje y los almacena junto con su respectivo tiempo de adquisición.
+A medida que se reciben los datos, el programa actualiza una gráfica en tiempo real, permitiendo visualizar la evolución de la señal de conductancia cutánea.
+Posteriormente, el sistema compara el voltaje obtenido con los umbrales fisiológicos definidos previamente, lo que permite identificar el estado en el que se encuentra la persona. Si el voltaje supera el umbral de estrés, el programa también determina el nivel de estrés correspondiente, generando una alerta que se muestra en la consola.
+Para que al terminar el tiempo de medición, se generé una gráfica completa de la señal registrada, mostrando el comportamiento de la conductancia cutánea durante todo el experimento.
+
+<img width="269" height="33" alt="image" src="https://github.com/user-attachments/assets/a8ae1267-7b15-4a27-b5d1-7c80a221f41e" />
+<img width="678" height="432" alt="image" src="https://github.com/user-attachments/assets/b5a07f16-ce6c-45fc-a10a-2d0542aaf599" />
 
 
 
