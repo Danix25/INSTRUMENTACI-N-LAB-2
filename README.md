@@ -68,9 +68,15 @@ Se puede observar que la corriente no es mayor a 1 mA en este caso extremo. Por 
 
 ### Montaje
 
+Para la realización de la práctica y la adquisición de la señal de respuesta galvánica, se diseño el circuito de acondicionamiento para capturar correctamente los niveles de estrés de una persona.
+
 <div align="center">
 <img width="484" height="335" alt="image" src="https://github.com/user-attachments/assets/63d62002-1d85-4e7a-8d27-7756961f93e5" />
 </div>
+
+En primer lugar, se escogió la región anatómica donde se sujetarán los electrodos para capturar la señal con un mínimo de interferencia. La región seleccionada fue la mano, ubicando los electrodos en la yema de los dedos. Estos electrodos serán ajustados con una cinta tipo velcro, para que estos tengan un minimo movimiento. Además, el dispositivo estará sujeto al brazo del paciente, por lo que los datos y variaciones de la GSR serán transmitidas de forma inalámbrica a un computador portatil.
+
+(Aquí se adjunta imágen)
 
 
 # REFERENCIAS 
