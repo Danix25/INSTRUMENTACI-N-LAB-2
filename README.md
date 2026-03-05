@@ -44,6 +44,10 @@ Del mismo modo, es importante mencionar el papel que juega el tiempo de exposici
 <img width="495" height="497" alt="image" src="https://github.com/user-attachments/assets/8a6543e5-4356-4b6f-9249-2934d5b6b5fb" />
 </div>
 
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+
+
+
 # REFERENCIAS 
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
 - https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity
