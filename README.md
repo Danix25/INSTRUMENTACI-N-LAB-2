@@ -33,14 +33,10 @@ Al aplicar una corriente eléctrica sobre el cuerpo humano, puede provocar daño
 
 Esta gráfica posee 4 zonas diferenciadas, en el que se establece lo siguiente:
 
-- #### Zona 1:
-No se presenta ninguna reacción o daño, sin importar el tiempo de exposición
-- ### Zona 2:
-No presenta un efecto fisiológico peligroso, sin embargo, se pueden percibir contracciones musculares o tetanizaciones leves.
-- ### Zona 3:
-No  hay daño orgánico, pero se percibirán contracciones musculares, afectando la respiración, paradas temporales del corazón, pero sin llegar a una fibrilación ventricular
-- ### Zona 4:
-Se presenta un riesgo de paro cardiaco por fibrilación ventricular, además de paro respiratorio y quemaduras graves. En esta zona, las consecuencias serán graves segun la intensidad y el tiempo de actuación.
+- **Zona 1:** No se presenta ninguna reacción o daño, sin importar el tiempo de exposición
+- **Zona 2:** No presenta un efecto fisiológico peligroso, sin embargo, se pueden percibir contracciones musculares o tetanizaciones leves.
+- **Zona 3:** No  hay daño orgánico, pero se percibirán contracciones musculares, afectando la respiración, paradas temporales del corazón, pero sin llegar a una fibrilación ventricular
+- **Zona 4:** Se presenta un riesgo de paro cardiaco por fibrilación ventricular, además de paro respiratorio y quemaduras graves. En esta zona, las consecuencias serán graves segun la intensidad y el tiempo de actuación.
 
 Del mismo modo, es importante mencionar el papel que juega el tiempo de exposición. Por ejemplo, los efectos del paso de una corriente de 200 mA por 50 ms, son equivalentes a los de una corriente de 20 mA por un segundo. En la siguiente tabla se especifican los efectos de la corriente eléctrica de acuerdo al rango de la intensidad:
 
