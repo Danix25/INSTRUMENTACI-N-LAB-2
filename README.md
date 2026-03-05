@@ -23,6 +23,31 @@ Dicho esto, la GSR mide las variaciones en la conductividad eléctrica de la pie
 <img width="412" height="412" alt="image" src="https://github.com/user-attachments/assets/780d36cf-130a-44ca-a410-28d564cba660" />
 </div>
 
+### Efectos de la corriente directa y alterna en seres humanos
+
+Al aplicar una corriente eléctrica sobre el cuerpo humano, puede provocar daños fisiológicos según la cantidad aplicada. La corriente, al no ser preceptible, visible o inolora, hace que sea más peligrosa. Los riesgos y daños que puede producir la corriente por el cuerpo humanos están establecidos en la norma 60479 de la Comisión Electrotécnica Internacional (IEC), quien es el organismo que dicta las normas eléctricas. En dicha norma, se establecen los rangos de la corriente en que el cuerpo presenta un riesgo:
+
+<div align="center">
+<img width="487" height="495" alt="image" src="https://github.com/user-attachments/assets/29884bc4-93be-4952-9647-0c4e039fa447" />
+</div>
+
+Esta gráfica posee 4 zonas diferenciadas, en el que se establece lo siguiente:
+
+- # Zona 1: #
+No se presenta ninguna reacción o daño, sin importar el tiempo de exposición
+- # Zona 2:#
+No presenta un efecto fisiológico peligroso, sin embargo, se pueden percibir contracciones musculares o tetanizaciones leves.
+- # Zona 3:#
+No  hay daño orgánico, pero se percibirán contracciones musculares, afectando la respiración, paradas temporales del corazón, pero sin llegar a una fibrilación ventricular
+- # Zona 4:#
+Se presenta un riesgo de paro cardiaco por fibrilación ventricular, además de paro respiratorio y quemaduras graves. En esta zona, las consecuencias serán graves segun la intensidad y el tiempo de actuación.
+
+Del mismo modo, es importante mencionar el papel que juega el tiempo de exposición. Por ejemplo, los efectos del paso de una corriente de 200 mA por 50 ms, son equivalentes a los de una corriente de 20 mA por un segundo. En la siguiente tabla se especifican los efectos de la corriente eléctrica de acuerdo al rango de la intensidad:
+
+<div align="center">
+<img width="495" height="497" alt="image" src="https://github.com/user-attachments/assets/8a6543e5-4356-4b6f-9249-2934d5b6b5fb" />
+</div>
+
 # REFERENCIAS 
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
 - https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity
