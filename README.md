@@ -44,8 +44,14 @@ Del mismo modo, es importante mencionar el papel que juega el tiempo de exposici
 <img width="495" height="497" alt="image" src="https://github.com/user-attachments/assets/8a6543e5-4356-4b6f-9249-2934d5b6b5fb" />
 </div>
 
-### Montaje
-Para la realización de la práctica y la adquisición de la señal de respuesta galvánica, se diseñó un circuito
+### Cálculo de la corriente eléctrica
+
+<div align="center">
+<img width="500" height="521" alt="image" src="https://github.com/user-attachments/assets/f96c0e9a-942b-4bbb-bb31-d84ceb1190d5" />
+</div>
+
+
+
 
 
 # REFERENCIAS 
