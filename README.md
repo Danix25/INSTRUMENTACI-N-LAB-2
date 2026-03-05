@@ -88,7 +88,7 @@ Para presentar el dispositivo de captura, se empleó el siguiente procedimiento:
 
 **3.** En este punto, se visualiza en la gráfica un aumento en el valor, para que luego disminuya de manera paulatina al valor inicial.
 
-Dicha información será transmitida inalámbricamente a un computador portatil, en el que se verá la gráfica correspondiente a las variaciones de la GSR.
+Dicha información será transmitida inalámbricamente a un computador portatil, en el que se verá la gráfica correspondiente a las variaciones de la GSR. En el siguiente apartado se mostrará como se hizo la toma de datos para nuestro sujeto de prueba.
 
 ## Parte C
 
@@ -404,6 +404,14 @@ En cuanto a las desventajas, se menciona la influencia de factores externos, com
 Esto indica que, a pesar de ser un método relativamente simple y útil, para lograr una interpretación más precisa es necesario combinarlo con otras medidas fisiológicas, como la respiración o la frecuencia cardiaca, o con pruebas psicológicas, si se desea detectar diferentes niveles de estrés.
 
 # Conclusiones
+
+- La práctica permitió comprender el funcionamiento de la respuesta galvánica cutánea como un indicador fisiológico para medir los niveles de estrés, el cual está asociado a la actividad del sistema nervioso autónomo, evidenciando como ciertos comportamientos (respiración profunda) generan variaciones en la conductancia de la piel.
+
+- Diseñar un dispositivo para medir la GSR permitió adquirir experiencia para la integración de sensores y circuitos electrónicos para adquirir y transmitir señales, evidenciando un claro aprendizaje en mejorar la ubicación de los electrodos para evitar ruidos y artefactos en las señales.
+
+- Con base a los resultados obtenidos, se comprendió la utilidad que tiene la GSR para estimar el nivel de estrés, además de la importancia de tener una previa calibración del equipo, debido a que las personas poseen diferentes niveles o umbrales de estrés.
+
+- Se pudieron conocer los alcances y limitaciones de la GSR en aplicaciones biomédicas, destacando la importancia de ubicar los electrodos en una región que involucre la mínima interferencia y se logre una evaluación más precisa del estado de estrés de un paciente.
 
 
 # REFERENCIAS 
