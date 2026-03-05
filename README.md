@@ -66,7 +66,11 @@ $$
 
 Se puede observar que la corriente no es mayor a 1 mA en este caso extremo. Por lo tanto, es razonable inferir que dicha corriente será mucho menor en condiciones reales, ya que la conductancia de la piel no es tan alta como la que se plantea para realizar el cálculo. Por lo tanto, se trata de una corriente segura.
 
+### Montaje
 
+<div align="center">
+<img width="484" height="335" alt="image" src="https://github.com/user-attachments/assets/63d62002-1d85-4e7a-8d27-7756961f93e5" />
+</div>
 
 
 # REFERENCIAS 
