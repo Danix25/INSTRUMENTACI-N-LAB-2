@@ -56,6 +56,10 @@ $$
 
 El valor de alimentación que se utiliza es de 5 V. Asumiendo el caso exagerado de que la Rskin, que corresponde a la resistencia de la piel, sea cero, realizamos el cálculo de la corriente que pasaría por el cuerpo en dicho caso, y se obtiene que es de 73,52 µA.
 
+$$
+73.52\,\mu A < 1\,mA
+$$
+
 Se puede observar que la corriente no es mayor a 1 mA en este caso extremo. Por lo tanto, es razonable inferir que dicha corriente será mucho menor en condiciones reales, ya que la conductancia de la piel no es tan alta como la que se plantea para realizar el cálculo. Por lo tanto, se trata de una corriente segura.
 
 
