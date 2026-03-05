@@ -28,7 +28,7 @@ Dicho esto, la GSR mide las variaciones en la conductividad eléctrica de la pie
 Al aplicar una corriente eléctrica sobre el cuerpo humano, puede provocar daños fisiológicos según la cantidad aplicada. La corriente, al no ser preceptible, visible o inolora, hace que sea más peligrosa. Los riesgos y daños que puede producir la corriente por el cuerpo humanos están establecidos en la norma 60479 de la Comisión Electrotécnica Internacional (IEC), quien es el organismo que dicta las normas eléctricas. En dicha norma, se establecen los rangos de la corriente en que el cuerpo presenta un riesgo:
 
 <div align="center">
-<img width="487" height="495" alt="image" src="https://github.com/user-attachments/assets/29884bc4-93be-4952-9647-0c4e039fa447" />
+<img width="387" height="395" alt="image" src="https://github.com/user-attachments/assets/29884bc4-93be-4952-9647-0c4e039fa447" />
 </div>
 
 Esta gráfica posee 4 zonas diferenciadas, en el que se establece lo siguiente:
