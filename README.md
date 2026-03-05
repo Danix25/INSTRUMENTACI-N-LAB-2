@@ -33,7 +33,7 @@ Al aplicar una corriente eléctrica sobre el cuerpo humano, puede provocar daño
 
 Esta gráfica posee 4 zonas diferenciadas, en el que se establece lo siguiente:
 
-- ### Zona 1:
+- #### Zona 1:
 No se presenta ninguna reacción o daño, sin importar el tiempo de exposición
 - ### Zona 2:
 No presenta un efecto fisiológico peligroso, sin embargo, se pueden percibir contracciones musculares o tetanizaciones leves.
