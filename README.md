@@ -47,7 +47,7 @@ Del mismo modo, es importante mencionar el papel que juega el tiempo de exposici
 ### Cálculo de la corriente eléctrica
 
 <div align="center">
-<img width="450" height="521" alt="image" src="https://github.com/user-attachments/assets/f96c0e9a-942b-4bbb-bb31-d84ceb1190d5" />
+<img width="350" height="521" alt="image" src="https://github.com/user-attachments/assets/f96c0e9a-942b-4bbb-bb31-d84ceb1190d5" />
 </div>
 
 $$
