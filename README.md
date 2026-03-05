@@ -389,6 +389,10 @@ La señal presenta una ligera reducción y estabilización, manteniéndose alred
 
 Una inspiración profunda incrementa la GSR debido a la activación transitoria del sistema nervioso simpático (SNS), lo que provoca un aumento inmediato en la actividad de las glándulas sudoríparas, incluso cuando la persona no presenta estrés emocional. Este fenómeno puede explicarse mediante cuatro factores: primero, la activación simpática, que corresponde al estímulo fisiológico que activa el SNS; segundo, el aumento de la sudoración, ya que el SNS estimula las glándulas sudoríparas; tercero, el incremento de la conductancia, debido al aumento de la humedad en la piel; y cuarto, el reflejo fisiológico, que actúa como un marcador de la activación del sistema nervioso.
 
+<div align="center">
+<img width="450" height="340" alt="image" src="https://github.com/user-attachments/assets/f3d1faa2-b859-485a-ab95-4be228f722e2" />
+</div>
+
 - **¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?**
 
 La respuesta galvánica cutánea se utiliza comúnmente como un indicador fisiológico de estrés. Sin embargo, a pesar de las ventajas que ofrece esta técnica, también presenta ciertas limitaciones. En cuanto a sus ventajas, se destaca la medición objetiva, ya que, a partir de una señal fisiológica, es posible evaluar el estrés sin depender de percepciones subjetivas del individuo. Asimismo, se resalta su implementación simple y su carácter no invasivo, debido a que la medición se realiza únicamente mediante la colocación de electrodos sobre la piel, y los sensores utilizados son económicos y fáciles de emplear en este tipo de sistemas de monitoreo.
