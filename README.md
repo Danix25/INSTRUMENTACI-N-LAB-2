@@ -1,6 +1,8 @@
 # Estimación del nivel de estrés basada en la respuesta galvánica cutánea (GSR)
 
-Samuel Peña Rojas, Vanessa Vera Caro, Daniel López Castillo
+Samuel Peña Rojas, 
+Vanessa Vera Caro, 
+Daniel López Castillo
 
 ## PARTE A
 ### Actividad electrodérmica
