@@ -78,6 +78,19 @@ En primer lugar, se escogió la región anatómica donde se sujetarán los elect
 
 (Aquí se adjunta imágen)
 
+## Parte B
+
+Para presentar el dispositivo de captura, se empleó el siguiente procedimiento:
+
+**1.** Se conecta el dispositivo al paciente, pidiendole a este que esté sentado y en reposo.
+**2.** se pide al sujeto de prueba que realice una inspiración profunda y luego exhale lentamente.
+**3.** En este punto, se visualiza en la gráfica un aumento en el valor, para que luego disminuya de manera paulatina al valor inicial.
+
+Dicha información será transmitida inalámbricamente a un computador portatil, en el que se verá la gráfica correspondiente a las variaciones de la GSR.
+
+
+
+
 
 # REFERENCIAS 
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
