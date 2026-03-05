@@ -406,7 +406,4 @@ Esto indica que, a pesar de ser un método relativamente simple y útil, para lo
 # Conclusiones
 
 # REFERENCIAS 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
-- https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity
-- https://www.sciencedirect.com/topics/computer-science/galvanic-skin-response
-- https://areatecnologia.com/electricidad/danos-corriente.html
+- O. N. Rahma, A. P. Putra, A. Rahmatillah, Y. S. K. A. Putri, N. D. Fajriaty, K. Ain y R. Chai, “Electrodermal Activity for Measuring Cognitive and Emotional Stress Level,” Journal of Medical Signals and Sensors, vol. 12, no. 2, pp. 155–162, 2022. [En línea]. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC9215837/
