@@ -219,7 +219,7 @@ Estos valores sirven como umbrales de referencia para el algoritmo de clasificac
 <div align="center">
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/42f75e7d-db53-41af-a64d-a708ada16102" />
 
-<img width="296" height="248" alt="image" src="https://github.com/user-attachments/assets/177e2390-9a0c-46f3-a8e6-dba05ca8f33e" />
+<img width="300" height="248" alt="image" src="https://github.com/user-attachments/assets/177e2390-9a0c-46f3-a8e6-dba05ca8f33e" />
 </div>
 
 En las gráficas se presentan las señales de conductancia cutánea en función del tiempo para cuatro condiciones fisiológicas diferentes: movimiento, respiración, habla y estrés. Cada gráfica muestra cómo varía el voltaje medido por los electrodos durante aproximadamente 20 segundos.
@@ -371,8 +371,8 @@ Para que al terminar el tiempo de medición, se generé una gráfica completa de
 
 <div align="center">
     
-<img width="269" height="33" alt="image" src="https://github.com/user-attachments/assets/a8ae1267-7b15-4a27-b5d1-7c80a221f41e" />
-<img width="678" height="432" alt="image" src="https://github.com/user-attachments/assets/b5a07f16-ce6c-45fc-a10a-2d0542aaf599" />
+<img width="200" height="33" alt="image" src="https://github.com/user-attachments/assets/a8ae1267-7b15-4a27-b5d1-7c80a221f41e" />
+<img width="400" height="432" alt="image" src="https://github.com/user-attachments/assets/b5a07f16-ce6c-45fc-a10a-2d0542aaf599" />
 
 </div>
 
