@@ -216,10 +216,11 @@ fprintf("Estres > %.3f V\n",media_est)
 Al finalizar el programa muestra en la consola los valores promedio de voltaje asociados a cada estado fisiológico.
 Estos valores sirven como umbrales de referencia para el algoritmo de clasificación implementado posteriormente en el sistema de detección de estrés.
 
+<div align="center">
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/42f75e7d-db53-41af-a64d-a708ada16102" />
 
 <img width="296" height="248" alt="image" src="https://github.com/user-attachments/assets/177e2390-9a0c-46f3-a8e6-dba05ca8f33e" />
-
+</div>
 
 En las gráficas se presentan las señales de conductancia cutánea en función del tiempo para cuatro condiciones fisiológicas diferentes: movimiento, respiración, habla y estrés. Cada gráfica muestra cómo varía el voltaje medido por los electrodos durante aproximadamente 20 segundos.
 En movimiento, la señal presenta variaciones bruscas y picos frecuentes. Esto ocurre porque el movimiento corporal produce cambios en el contacto de los electrodos con la piel y pequeñas perturbaciones eléctricas, lo que genera una señal más inestable.
