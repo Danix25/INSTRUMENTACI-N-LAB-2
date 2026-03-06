@@ -368,8 +368,13 @@ A medida que se reciben los datos, el programa actualiza una gráfica en tiempo 
 Posteriormente, el sistema compara el voltaje obtenido con los umbrales fisiológicos definidos previamente, lo que permite identificar el estado en el que se encuentra la persona. Si el voltaje supera el umbral de estrés, el programa también determina el nivel de estrés correspondiente, generando una alerta que se muestra en la consola.
 Para que al terminar el tiempo de medición, se generé una gráfica completa de la señal registrada, mostrando el comportamiento de la conductancia cutánea durante todo el experimento.
 
+
+<div align="center">
+    
 <img width="269" height="33" alt="image" src="https://github.com/user-attachments/assets/a8ae1267-7b15-4a27-b5d1-7c80a221f41e" />
 <img width="678" height="432" alt="image" src="https://github.com/user-attachments/assets/b5a07f16-ce6c-45fc-a10a-2d0542aaf599" />
+
+</div>
 
 Durante todo el intervalo de medición el voltaje se mantiene aproximadamente entre 0.60 V y 0.95 V, lo que nos dice que la señal es estable pero, presenta variaciones asociadas a cambios fisiológicos.
 
