@@ -94,9 +94,9 @@ Dicha información será transmitida inalámbricamente a un computador portatil,
 
 ## Parte C
 
-
+<div align="center">
 <img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/9aef9eb1-c201-4eae-aa15-087cb96c881b" />
-
+</div>
 
 **Calibración de Umbrales de Conductancia Cutánea**
 
